@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "recipes_unlocker",
+  "version": "${version}",
+  "name": "Recipes Unlocker",
+  "description": "Unlocks all crafting recipes automatically.",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "issues": "https://github.com/dxxi3d/recipes_unlocker/issues",
+    "sources": "https://github.com/dxxi3d/recipes_unlocker"
+  },
+  "license": "MIT",
+  "icon": "assets/recipes_unlocker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.recipes_unlocker.RecipesUnlocker"
+    ]
+  },
+  "mixins": [
+    "recipes_unlocker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25"
+  }
+}
